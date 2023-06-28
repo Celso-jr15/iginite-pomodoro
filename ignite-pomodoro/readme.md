@@ -26,3 +26,6 @@ src/pages/Home/index.tsx:3
 
 // o Interval não pega os segundos de forma precisa, então pegaremos a diferença do tempo inical com o atual.
 npm i date-fns
+
+//Context API = Permite compartilhar informações entre vários complenentes ao mesmo tempo
+import {createContext, useContext} from 'react'
